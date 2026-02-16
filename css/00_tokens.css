@@ -1,0 +1,17 @@
+:root{
+  --bg:#f7f8fa;
+  --paper:#ffffff;
+  --paper2:#eef1f5;
+
+  --text:#111111;
+  --muted:#5f6675;
+  --line:rgba(0,0,0,.08);
+
+  --accent:#1c2a4a;       /* ネイビー */
+  --accent-gold:#c6a85e;  /* ゴールド */
+  --btn-bg: #2a3b63;
+  --btn-bg-hover: #223256;
+
+  --radius:18px;
+  --shadow: none;
+}

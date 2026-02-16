@@ -1,0 +1,23 @@
+.section{ padding: 46px 0; }
+.section--alt{
+  background: linear-gradient(180deg, transparent, color-mix(in srgb, var(--paper2) 85%, transparent), transparent);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.section__head{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:16px;
+  margin-bottom: 18px;
+}
+.section h2{ margin: 0; font-size: 22px; letter-spacing:.2px; }
+
+.grid{
+  display:grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  max-width: 900px;
+  margin: 0 auto;
+}
