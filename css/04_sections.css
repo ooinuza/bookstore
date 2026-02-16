@@ -162,6 +162,7 @@
   letter-spacing: 0.08em;
   position: relative;
   padding-bottom: 12px;
+  margin-bottom: 28px;   /* ← これ追加 */
 }
 
 .section-title::after{
