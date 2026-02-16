@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>100 Stars -Before I Die-</title>
+  <meta name="description" content="小さなWebアプリを並べる“おおいぬざ書店”。見つけて、試して、持ち帰れる。Ooinuza and co." />
+<link rel="stylesheet" href="../css/00_tokens.css" />
+<link rel="stylesheet" href="../css/01_base.css" />
+<link rel="stylesheet" href="../css/02_layout.css" />
+<link rel="stylesheet" href="../css/03_components.css" />
+<link rel="stylesheet" href="../css/04_sections.css" />
+<link rel="stylesheet" href="../css/99_utilities.css" />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;600&display=swap" rel="stylesheet">
+  <!-- OGP（あとで画像追加して強化できる） -->
+  <meta property="og:title" content="おおいぬざ書店 / Ooinuza and co." />
+  <meta property="og:description" content="小さなWebアプリを並べる“おおいぬざ書店”。見つけて、試して、持ち帰れる。" />
+  <meta property="og:type" content="website" />
+  <!-- <meta property="og:image" content="https://example.com/og.png" /> -->
+</head>
+
+<body>
+  <header class="masthead">
+  <div class="masthead__inner">
+    <a href="/">
+      <img src="../assets/logo.png" alt="Ooinuza" class="brand__logo">
+    </a>
+  </div>
+</header>
+
+<nav class="sticky-nav" aria-label="site">
+
+  <a href="/">
+    <span class="nav-jp">表紙</span>
+    <span class="nav-en">Top</span>
+  </a>
+
+  <a href="/#catalog">
+    <span class="nav-jp">棚</span>
+    <span class="nav-en">Catalog</span>
+  </a>
+
+  <a href="/#about">
+    <span class="nav-jp">店主</span>
+    <span class="nav-en">About</span>
+  </a>
+
+</nav>
+<main class="container">
+  <section class="hero">
+    <h1 class="section-title">100 Stars</h1>
+    <p>GitHubスター目標を可視化する、小さな実験。</p>
+
+    <div style="margin-top:20px;">
+      <a class="btn" href="https://ooinuza.github.io/100stars/" target="_blank">Demo</a>
+      <a class="btn btn--ghost" href="https://github.com/ooinuza/100stars" target="_blank">GitHub</a>
+    </div>
+  </section>
+</main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="muted">© <span id="year"></span> おおいぬざ書店 / Ooinuza and co.</p>
+      <a class="muted" href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
