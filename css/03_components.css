@@ -192,9 +192,19 @@
   width: 100%;
 }
 
+.cover__text::before{
+  content:"";
+  position:absolute;
+  inset:-14px -26px;          /* 文字の周囲に余白 */
+  background: rgba(0,0,0,0.28); /* ここで濃さ調整 */
+  border-radius: 999px;
+  filter: blur(10px);         /* “暗い光彩”っぽく */
+  z-index: -1;
+}
+
 .cover__title{
   display: block;
-  font-size: 42px;
+  font-size: 52px;
   letter-spacing: 0.12em;
   font-weight: 700;
   text-shadow:
@@ -214,7 +224,7 @@
 
 /* Hover (控えめ) */
 .cover:hover .cover__overlay{
-  background: rgba(0,0,0,0.22);
+  background: rgba(0,0,0,0.38);
 }
 
 .cover:focus-visible{
