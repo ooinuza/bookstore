@@ -184,7 +184,7 @@
 /* Centered text */
 .cover__text{
   position: absolute;
-  top: 56%;                      /* ← 50% → 56% に */
+  top: 54%;                      /* ← 50% → 56% に */
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -199,7 +199,7 @@
   font-weight: 700;
   text-shadow:
     0 3px 12px rgba(0,0,0,.7),
-  0 0 28px rgba(0,0,0,.45);
+  0 0 30px rgba(0,0,0,.45);
 }
 
 .cover__subtitle{
@@ -209,7 +209,7 @@
   letter-spacing: 0.18em;
   text-shadow:
     0 3px 12px rgba(0,0,0,.7),
-  0 0 28px rgba(0,0,0,.45);
+  0 0 30px rgba(0,0,0,.45);
 }
 
 /* Hover (控えめ) */
