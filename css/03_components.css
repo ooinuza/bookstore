@@ -184,7 +184,7 @@
 /* Centered text */
 .cover__text{
   position: absolute;
-  top: 50%;
+  top: 56%;                      /* ← 50% → 56% に */
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -194,18 +194,22 @@
 
 .cover__title{
   display: block;
-  font-size: 42px;   /* ← 固定 */
+  font-size: 42px;
   letter-spacing: 0.12em;
   font-weight: 700;
+  text-shadow:
+    0 2px 10px rgba(0,0,0,.55),
+    0 0 22px rgba(0,0,0,.35);   /* ← 暗い“光彩” */
 }
 
 .cover__subtitle{
   display: block;
-  margin-top: 14px;
-  font-size: 25px;   /* ← 固定 */
+  margin-top: 6px;
+  font-size: 25px;
   letter-spacing: 0.18em;
-  opacity: 0.92;
-  text-shadow: 0 1px 0 rgba(0,0,0,0.22);
+  text-shadow:
+    0 2px 10px rgba(0,0,0,.55),
+    0 0 18px rgba(0,0,0,.30);
 }
 
 /* Hover (控えめ) */
