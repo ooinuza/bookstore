@@ -178,7 +178,7 @@
 .cover__overlay{
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.28); /* ←ここで濃さ調整 */
+  background: rgba(0,0,0,0.32);/* ←ここで濃さ調整 */
 }
 
 /* Centered text */
@@ -198,18 +198,18 @@
   letter-spacing: 0.12em;
   font-weight: 700;
   text-shadow:
-    0 2px 10px rgba(0,0,0,.55),
-    0 0 22px rgba(0,0,0,.35);   /* ← 暗い“光彩” */
+    0 3px 12px rgba(0,0,0,.7),
+  0 0 28px rgba(0,0,0,.45);
 }
 
 .cover__subtitle{
   display: block;
-  margin-top: 6px;
+  margin-top: -4px;
   font-size: 25px;
   letter-spacing: 0.18em;
   text-shadow:
-    0 2px 10px rgba(0,0,0,.55),
-    0 0 18px rgba(0,0,0,.30);
+    0 3px 12px rgba(0,0,0,.7),
+  0 0 28px rgba(0,0,0,.45);
 }
 
 /* Hover (控えめ) */
