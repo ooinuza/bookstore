@@ -191,3 +191,23 @@
   margin-left: 6px;
   letter-spacing: 0.1em;
 }
+
+.project-head{
+  padding: 80px 0 40px;
+  text-align: center;
+  background: none;
+}
+
+.project-head .section-title{
+  font-family: "Noto Serif JP", serif;
+  font-weight: 400;
+  font-size: clamp(26px, 3vw, 40px);
+  letter-spacing: 0.08em;
+  margin-bottom: 14px;
+}
+
+.project-head p{
+  color: #666;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+}
