@@ -81,7 +81,9 @@
 
 .hero{
   padding: 62px 0 26px;
-  background-image: url("../assets/hero.webp");
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.81), rgba(255, 255, 255, 0.76)),
+    url("../assets/hero.webp");
   background-size: cover;
   background-position: center;
 }
@@ -92,13 +94,14 @@
   text-transform: uppercase;
   font-size: 12px;
 }
+
 .hero__title{
   margin: 12px 0 12px;
   font-family: "Noto Serif JP", serif;
   font-weight: 400;
-  font-size: clamp(28px, 4.1vw, 52px);
-  line-height: 1.6;
-  letter-spacing: 0.05em;
+  font-size: clamp(22px, 3.4vw, 44px);
+  line-height: 1.7;
+  letter-spacing: 0.08em;
 }
 
 .hero__lead{
