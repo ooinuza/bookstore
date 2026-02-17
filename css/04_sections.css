@@ -212,18 +212,19 @@
 
 .project-head .section-title{
   font-family: "Noto Serif JP", serif;
-  font-weight: 400;
-  font-size: clamp(26px, 3vw, 40px);
-  letter-spacing: 0.08em;
+  font-weight: 800;
+  font-size: clamp(48px, 7vw, 110px); 
+  letter-spacing: 0.12em;
   margin-bottom: 14px;
 }
 
-.project-head .p{
+.project-head p{
   font-family: "Noto Serif JP", serif;
   color: #666;
-  font-size: 20px;
-  letter-spacing: 0.04em;
+  font-size: 25px;
+  letter-spacing: 0.18em;
   text-align: center;
+  margin-top: 10px;
 }
 
 .project-page .section-title::after{
