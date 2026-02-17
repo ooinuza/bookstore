@@ -213,7 +213,7 @@
 .project-head .section-title{
   font-family: "Noto Serif JP", serif;
   font-weight: 800;
-  font-size: clamp(48px, 7vw, 85px); 
+  font-size: clamp(48px, 9vw, 75px); 
   letter-spacing: 0.12em;
   margin-bottom: 14px;
 }
@@ -224,7 +224,7 @@
   font-size: 28px;
   letter-spacing: 0.18em;
   text-align: center;
-  margin-top: 10px;
+  margin-top: -2px;
 }
 
 .project-page .section-title::after{
