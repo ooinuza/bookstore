@@ -192,6 +192,8 @@
   letter-spacing: 0.1em;
 }
 
+/* アプリページの設定 */
+
 .project-head{
   padding: 80px 0 40px;
   text-align: center;
@@ -210,4 +212,8 @@
   color: #666;
   font-size: 15px;
   letter-spacing: 0.04em;
+}
+
+.project-page .section-title::after{
+  display: none;
 }
