@@ -3,30 +3,29 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>おおいぬざ書店 / Ooinuza and co.</title>
+  <title>100 Stars -Before I Die-</title>
   <meta name="description" content="小さなWebアプリを並べる“おおいぬざ書店”。見つけて、試して、持ち帰れる。Ooinuza and co." />
-  <link rel="stylesheet" href="./css/00_tokens.css" />
-<link rel="stylesheet" href="./css/01_base.css" />
-<link rel="stylesheet" href="./css/02_layout.css" />
-<link rel="stylesheet" href="./css/03_components.css" />
-<link rel="stylesheet" href="./css/04_sections.css" />
-<link rel="stylesheet" href="./css/99_utilities.css" />
+<link rel="stylesheet" href="../css/00_tokens.css" />
+<link rel="stylesheet" href="../css/01_base.css" />
+<link rel="stylesheet" href="../css/02_layout.css" />
+<link rel="stylesheet" href="../css/03_components.css" />
+<link rel="stylesheet" href="../css/04_sections.css" />
+<link rel="stylesheet" href="../css/99_utilities.css" />
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;600&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500&display=swap" rel="stylesheet">
   <!-- OGP（あとで画像追加して強化できる） -->
-  <meta property="og:title" content="Ooinuza Bookstore">
-  <meta property="og:description" content="小さなWebアプリを並べる“おおいぬざ書店”。">
-  <meta property="og:image" content="https://ooinuza.vercel.app/assets/og-home.jpg">
-  <meta property="og:url" content="https://ooinuza.vercel.app/">
-  <meta property="og:type" content="website">
+  <meta property="og:title" content="1✦0 Stars">
+  <meta property="og:description" content="Visualize your GitHub star goal.">
+  <meta property="og:image" content="https://ooinuza.vercel.app/assets/og-100stars.jpg">
+  <meta property="og:url" content="https://ooinuza.vercel.app/100stars/">
+  <meta property="og:type" content="article">
   <!-- <meta property="og:image" content="https://example.com/og.png" /> -->
 </head>
 
-<body>
+<body class="project-page">
   <header class="masthead">
   <div class="masthead__inner">
-    <a href="#top">
-      <img src="./assets/logo.png" alt="Ooinuza" class="brand__logo">
+    <a href="/">
+      <img src="../assets/logo.png" alt="Ooinuza" class="brand__logo">
     </a>
   </div>
 </header>
@@ -49,73 +48,17 @@
   </a>
 
 </nav>
+<main class="container">
+  <section class="project-head">
+    <h1 class="section-title">1✦0 Stars</h1>
+    <p>— Before I Die —</p>
 
-  <main id="top">
-    <!-- HERO -->
-    <section class="hero">
-      <div class="container hero__inner">
-
-        <h1 class="hero__title">
-          インターネットの大海の片隅で<br />
-          ニッチで小さなWebアプリを<br />
-          ひっそり置いています。
-        </h1>
-      </div>
-    </section>
-    <!-- CATALOG -->
-    <section id="catalog" class="section section--alt">
-      <div class="container">
-        <div class="section__head">
-          <h2 class="section-title">
-  棚 <span class="en">Catalog</span>
-</h2>
-</div>
-        <div class="grid">
-          <!-- サンプルカード：増やしていく -->
-          <article class="card">
-            <div class="card__media">
-  <a class="cover" href="100stars/" aria-label="1✦0 Stars の紹介ページへ">
-    <img src="./assets/100stars-cover.webp" alt="1✦0 Stars cover image">
-    <span class="cover__overlay" aria-hidden="true"></span>
-
-    <span class="cover__text">
-      <span class="cover__title">1✦0 Stars</span>
-      <span class="cover__subtitle">— Before I Die —</span>
-    </span>
-  </a>
-</div>
-            <div class="card__body">
-              <h3>100stars</h3>
-              <p class="muted">人生においてやっておきたいことを宇宙に浮かべる</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section id="about" class="section">
-      <div class="container two-col">
-        <div>
-          <h2 class="section-title">
-  店主 <span class="en">About owner</span>
-</h2>
-          <p class="muted">
-            <b>＜おおいぬざ＞</b><br>
-            インターネットの隅で、小さなWebアプリを作っています。<br>
-            目立たなくても、誰かの役に立つものを。<br>
-            写真と映画とヨガが好きです。動物も好きです。<br>
-          </p>
-
-          <div class="info">
-            <div class="info__row"><span class="info__key">Focus</span><span class="info__val">Frontend / UI</span></div>
-            <div class="info__row"><span class="info__key">Stack</span><span class="info__val">HTML, CSS, JavaScript</span></div>
-            <div class="info__row"><span class="info__key">Links</span><span class="info__val"><a href="https://github.com/ooinuza" target="_blank" rel="noreferrer">GitHub</a> / <a href="https://instagram.com/" target="_blank" rel="noreferrer">Instagram</a></span></div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+    <div style="margin-top:20px;">
+      <a class="btn" href="https://ooinuza.github.io/100stars/" target="_blank">Demo</a>
+      <a class="btn btn--ghost" href="https://github.com/ooinuza/100stars" target="_blank">GitHub</a>
+    </div>
+  </section>
+</main>
 
   <footer class="footer">
     <div class="container footer__inner">
