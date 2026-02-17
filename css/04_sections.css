@@ -167,12 +167,20 @@
 .section-title{
   font-family: "Noto Serif JP", serif;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 60px;
   letter-spacing: 0.08em;
   position: relative;
   padding-bottom: 12px;
   margin-bottom: 28px;   /* ← これ追加 */
 }
+
+.section-title .p{
+  font-family: "Noto Serif JP", serif;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 0.08em;
+  position: relative;
+  padding-bottom: 12px;
 
 .section-title::after{
   content:"";
