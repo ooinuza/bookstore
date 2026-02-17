@@ -79,7 +79,13 @@
 }
 .nav a:hover{ color: var(--text); }
 
-.hero{ padding: 62px 0 26px; }
+.hero{
+  padding: 62px 0 26px;
+  background-image: url("../assets/hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .kicker{
   color: var(--muted);
   letter-spacing:.12em;
