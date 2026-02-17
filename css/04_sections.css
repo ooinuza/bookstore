@@ -182,6 +182,7 @@
   position: relative;
   text-align: center;
   padding-bottom: 12px;
+}
 
 .section-title::after{
   content:"";
@@ -217,13 +218,14 @@
   margin-bottom: 14px;
 }
 
-.project-head p{
+.project-head .p{
+  font-family: "Noto Serif JP", serif;
   color: #666;
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 0.04em;
+  text-align: center;
 }
 
 .project-page .section-title::after{
   display: none;
-}
 }
